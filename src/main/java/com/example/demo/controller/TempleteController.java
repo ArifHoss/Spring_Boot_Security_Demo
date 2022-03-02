@@ -15,4 +15,10 @@ public class TempleteController {
     public String getLoginView(){
         return "login";
     }
+
+
+    @GetMapping("courses")
+    public String getCourses(){
+        return "courses";
+    }
 }
